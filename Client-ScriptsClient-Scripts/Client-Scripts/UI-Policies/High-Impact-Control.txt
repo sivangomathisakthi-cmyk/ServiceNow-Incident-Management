@@ -1,0 +1,15 @@
+UI Policy Name: High Impact Control
+
+Table: Incident
+
+Condition:
+Impact is 1 - High
+
+UI Policy Action 1:
+Field: Assignment group
+Mandatory: True
+Reverse if false: True
+
+UI Policy Action 2:
+Field: Urgency
+Read-only: True
